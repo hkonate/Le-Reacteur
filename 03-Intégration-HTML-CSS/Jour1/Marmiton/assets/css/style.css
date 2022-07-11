@@ -1,0 +1,97 @@
+body {
+  background-color: #efefef;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+header {
+  background-color: #ffffff;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+main {
+  margin-top: 60px;
+}
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #393c6c;
+}
+
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+.baseline,
+ul {
+  margin-top: 8px;
+  color: #6c6c6c;
+}
+
+.baseline {
+  text-align: center;
+  font-size: 12px;
+}
+
+.preparation-time {
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  background: #8a98b1;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.aliments img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.aliment-two {
+  margin: 0 32px;
+}
+
+ul {
+  list-style-type: disc;
+  line-height: 22px;
+}
+
+footer p {
+  font-family: Roboto;
+  color: #6c6c6c;
+  text-align: center;
+  margin: 60px auto;
+  font-size: 12px;
+}
