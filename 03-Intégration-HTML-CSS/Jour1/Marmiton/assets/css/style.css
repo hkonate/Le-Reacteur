@@ -6,6 +6,7 @@ body {
 
 header {
   background-color: #ffffff;
+  border-bottom: solid #f3735f 1px;
 }
 .container {
   width: 1024px;
