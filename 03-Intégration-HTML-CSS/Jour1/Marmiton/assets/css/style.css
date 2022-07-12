@@ -1,12 +1,14 @@
 body {
   background-color: #efefef;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   background-color: #ffffff;
+  height: 80px;
   border-bottom: solid #f3735f 1px;
+  box-sizing: border-box;
 }
 .container {
   width: 1024px;
@@ -19,6 +21,7 @@ section {
   background-color: white;
   padding: 60px 30px;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 p {
@@ -35,21 +38,28 @@ h3 {
 h1 {
   font-size: 50px;
   text-align: center;
-  color: #393c6c;
 }
 
+h1,
+h3 {
+  color: #393c6c;
+}
 h2 {
   font-size: 30px;
   color: #f3735f;
   margin-top: 70px;
   margin-bottom: 20px;
-  width: 400px;
 }
 
 h3 {
   font-size: 18px;
-  color: #393c6c;
+
   line-height: 22px;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 30px;
 }
 
 .baseline,
@@ -65,19 +75,19 @@ ul {
 
 .preparation-time {
   color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
+  margin: 0 auto 60px auto;
   background: #8a98b1;
   text-align: center;
   border-radius: 10px;
   padding: 10px 0;
+  width: 400px;
 }
 
 .aliments img {
   width: 300px;
   height: 300px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .aliment-two {
@@ -87,10 +97,10 @@ ul {
 ul {
   list-style-type: disc;
   line-height: 22px;
+  padding-left: 15px;
 }
 
 footer p {
-  font-family: Roboto;
   color: #6c6c6c;
   text-align: center;
   margin: 60px auto;
