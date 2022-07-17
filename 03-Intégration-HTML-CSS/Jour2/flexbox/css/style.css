@@ -1,0 +1,76 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+menu {
+  background-color: yellow;
+  padding: 20px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 100px;
+}
+.pill {
+  background-color: turquoise;
+  border: solid 1px black;
+  padding: 20px;
+}
+
+/* EXERCICE 1 */
+.exercice1 ul {
+  display: flex;
+}
+/* EXERCICE 2 */
+.exercice2 ul {
+  display: flex;
+  justify-content: flex-end;
+}
+/* EXERCICE 3 */
+.exercice3 ul {
+  display: flex;
+  text-align: center;
+}
+.exercice3 ul li {
+  flex: 1;
+}
+/* EXERCICE 4 */
+.exercice4 ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.exercice4 ul li:first-child {
+  flex: 1;
+}
+
+.exercice4 ul li:nth-child(2) {
+  flex: 5;
+  margin: 0 20px;
+  box-sizing: border-box;
+}
+.exercice4 ul li:last-child {
+  flex: 1;
+}
+
+/* EXERCICE 5 */
+.exercice5 ul,
+.exercice5 {
+  display: flex;
+  justify-content: space-between;
+}
+/* EXERCICE 6 */
+.exercice6 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* EXERCICE 7 */
+.exercice7 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.exercice7 li {
+  border-radius: 50%;
+}
